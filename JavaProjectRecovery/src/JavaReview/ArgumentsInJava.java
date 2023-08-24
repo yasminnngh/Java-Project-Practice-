@@ -2,6 +2,9 @@ package JavaReview;
 
 public class ArgumentsInJava {
 
+	//Without Void is return
+	//With Void is NO return
+	
 	
 	// No Return No Argument
 	

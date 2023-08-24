@@ -18,7 +18,6 @@ public class B extends A {
 		System.out.println(obj.b);
 	
 		//Invoking the global variables from parent class
-		
 		System.out.println(A.a);
 		
 		
