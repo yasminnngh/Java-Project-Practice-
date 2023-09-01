@@ -1,6 +1,6 @@
 package OopsAbstraction2;
 
-public class Amazon implements A {
+public class Amazon implements A, B {
 
 	@Override
 	public void homePage() {
@@ -39,9 +39,53 @@ public class Amazon implements A {
 	}
 
 	
+	@Override
+	public void beuatyProducts() {
+		// TODO Auto-generated method stub
+		System.out.println("Beuaty Products");
+	}
+
+	@Override
+	public void clothing() {
+		// TODO Auto-generated method stub
+		System.out.println("Clothing");
+	}
+
+	@Override
+	public void toys() {
+		// TODO Auto-generated method stub
+		System.out.println("Toys");
+	}
+
+	@Override
+	public void kitchen() {
+		// TODO Auto-generated method stub
+		System.out.println("Kitchen");
+	}
+
+	@Override
+	public void furniture() {
+		// TODO Auto-generated method stub
+		System.out.println("Furniture");
+	}
+
+	@Override
+	public void outdoorProducts() {
+		// TODO Auto-generated method stub
+		System.out.println("Outdoor Products");
+	}
+
+	@Override
+	public void electronics() {
+		// TODO Auto-generated method stub
+		System.out.println("Electronics");
+	}
+	
+	
+	
 	public static void main(String[] args) {
 		
-		
+	
 		
 	Amazon obj = new Amazon(); 
 	obj.homePage();
@@ -56,7 +100,25 @@ public class Amazon implements A {
 	
 	obj.returnOrder();
 		
+	obj.beuatyProducts();
+	
+	obj.clothing(); 
+	
+	obj.toys();
+	
+	obj.kitchen();
+	
+	obj.furniture();
 		
+	obj.outdoorProducts();
+	
+	obj.electronics(); 
+	
+	System.out.println(a);
 		
+	
+	
 	}
+
+	
 }

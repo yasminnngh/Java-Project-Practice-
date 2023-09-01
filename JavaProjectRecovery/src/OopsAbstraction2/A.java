@@ -2,6 +2,8 @@ package OopsAbstraction2;
 
 public interface A {
 
+	int a = 20; 
+	
 	public static void amazon() {
 		System.out.println("Amazon Web Application");
 	}
@@ -18,11 +20,7 @@ public interface A {
 	
 	void returnOrder(); 
 	
-	
-	
-	
-	
-	
+
 	
 	
 }
